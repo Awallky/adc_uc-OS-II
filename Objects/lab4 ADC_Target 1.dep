@@ -1,0 +1,55 @@
+Dependencies for Project 'lab4 ADC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5A0B0712)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178 -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DTM4C123GH6PM -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RA1-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C2C04)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_ints.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_nvic.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\adc.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\interrupt.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\pin_map.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\rom.h)(0x5A0AF063)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\uart.h)(0x59F69769)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\utils\uartstdio.h)(0x59F69772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588C2C04)
+F (.\startup_rvmdk.S)(0x5A0AF941)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "TM4C123GH6PM SETA 1"--list .\listings\startup_rvmdk.lst --xref -o .\objects\startup_rvmdk.o --depend .\objects\startup_rvmdk.d)
+F (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\utils\uartstdio.c)(0x59F69772)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178 -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DTM4C123GH6PM -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RA1-o .\objects\uartstdio.o --omf_browse .\objects\uartstdio.crf --depend .\objects\uartstdio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588C2C04)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_ints.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_types.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_uart.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\debug.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\interrupt.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\rom.h)(0x5A0AF063)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\rom_map.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\uart.h)(0x59F69769)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\utils\uartstdio.h)(0x59F69772)
+F (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\adc.c)(0x59F69768)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DTM4C123GH6PM -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RA1-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_adc.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_ints.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_types.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_sysctl.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\adc.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\debug.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\interrupt.h)(0x59F69768)
+F (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\interrupt.c)(0x59F69768)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DTM4C123GH6PM -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RA1-o .\objects\interrupt.o --omf_browse .\objects\interrupt.crf --depend .\objects\interrupt.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_ints.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_nvic.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\inc\hw_types.h)(0x59F6976D)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\cpu.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\debug.h)(0x59F69768)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\interrupt.h)(0x59F69768)
+F (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\cpu.c)(0x59F69768)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I C:\Keil_v5\TivaWare_C_Series-2.1.4.178-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DTM4C123GH6PM -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RA1-o .\objects\cpu.o --omf_browse .\objects\cpu.crf --depend .\objects\cpu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\TivaWare_C_Series-2.1.4.178\driverlib\cpu.h)(0x59F69768)
